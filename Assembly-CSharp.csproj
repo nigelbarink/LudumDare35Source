@@ -47,7 +47,10 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\AI.cs" />
      <Compile Include="Assets\Scripts\FollowPlayer.cs" />
+     <Compile Include="Assets\Scripts\Node.cs" />
+     <Compile Include="Assets\Scripts\Wall.cs" />
      <Compile Include="Assets\Scripts\controls.cs" />
+     <Compile Include="Assets\health.cs" />
      <None Include="Assets\TODO.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>F:/unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

@@ -8,18 +8,23 @@ title: -?-
 Platformer / scroller
 Light and dark kinda effect
 Character walks in different world where he finds out he can SHAPESHIFT.
-with this gift he is capable of deefeating enemies and solving different puzzles
+with this gift he is capable of deefeating enemies and solving different puzzles.
+ShapShift happens When the player presses space.
 
 Implementations:
 - walk left to right *
-- character facing correct
-- Simplistic AI / Enemies <-
+- character facing correct *
+- Simplistic AI / Enemies *
 - 5 Levels
 - Main menu 
 - Sound effects
-- Upgrades
-- 
+- Upgrades 
+- Shapshift! *
+- cooldown on shapshift
+- one shape only to use portal
+- defeat enemie by switching to the right type so they get damage and you don't 
 
+** multiple player instance to change too
  * = Done !
 
  

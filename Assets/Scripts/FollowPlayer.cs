@@ -15,7 +15,7 @@ public class FollowPlayer : MonoBehaviour {
 
 
 			// move camera !
-		if(change != 0 && change != null){
+		if(change != 0 ){
 			float relcam = cam.x - obj.x; 
 			//relcam = Mathf.Clamp (relcam, 34, 40);
 
