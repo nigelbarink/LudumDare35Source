@@ -1,0 +1,34 @@
+Ludum dare Ideas
+---------------------------------------------------
+Theme: ShapeShift 
+
+title: -?- 
+
+3D
+Platformer / scroller
+Light and dark kinda effect
+Character walks in different world where he finds out he can SHAPESHIFT.
+with this gift he is capable of deefeating enemies and solving different puzzles
+
+Implementations:
+- walk left to right *
+- character facing correct
+- Simplistic AI / Enemies <-
+- 5 Levels
+- Main menu 
+- Sound effects
+- Upgrades
+- 
+
+ * = Done !
+
+ 
+Story line :
+bla bla bla 
+
+
+Min Z Depth: 30.88
+Max Z Depth: 49.9
+ 
+min: 34
+max: 40
