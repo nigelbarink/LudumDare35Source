@@ -2,9 +2,24 @@
 using System.Collections;
 
 public class Wall : MonoBehaviour {
-	float lives = 50;
+	public float lives = 50;
 	public Material[] mat = new Material[5];
 	public Renderer rend;
+	bool selected = false;
+	Color default_color;
+	void Start (){
+		default_color = this.GetComponent<Renderer>().material.color;
+	}
+
+	public void select (bool fase){
+		if (fase == true ) {
+			this.GetComponent<Renderer> ().material.color = Color.yellow;
+		}
+		else {
+			this.GetComponent<Renderer>().material.color = default_color ;
+		}
+	}
+
 	public void DestroyWall (int cracked){
 		lives -= cracked;
 		if (lives >= 50) {
@@ -23,7 +38,8 @@ public class Wall : MonoBehaviour {
 			rend.material =	mat [4];
 		}
 		if (lives <= 0 ) {
-			Destroy (this);
+			Destroy (this.gameObject);
+			//TODO: maybe some cool destroying wall animation 
 		}
 	}
 }
