@@ -2,47 +2,55 @@ Ludum dare Ideas
 ---------------------------------------------------
 Theme: ShapeShift 
 
-title: -?- 
+title: -?- (Dwarf Portals : SHAPESHIFTERS)
 
 3D
 Platformer / scroller
 Light and dark kinda effect
 Character walks in different world where he finds out he can SHAPESHIFT.
 with this gift he is capable of deefeating enemies and solving different puzzles.
-ShapShift happens When the player presses space.
+ShapShift happens When the player presses Z , X , C.
+___________________
+|  Legenda 		  |
+|_________________|
+|  * = Done !	  |
+|  ** = Extra     |
+|_________________|
 
 Implementations:
+
 Gameplay:
-- cooldown on shapshift*
 - 5 Levels (Atleast 3)
-- walk left to right *
-- character facing correct *
-- Simplistic AI / Enemies *
-- Upgrades 
-- Shapshift! *
-- one shape only to use portal *
-- defeat enemie by switching to the right type so they get damage and you don't 
-- Fix add up by shape shift
-** little indestructable walls?!
+
+
 
 Effects:
 - Main menu 
 - Sound effects
 - Animation For wall Destruction 
-- User Interface *
 - textures
 - Instructions
 
+** little indestructable walls?!
+** Remove redundent funcs
+** Let monsters spawn in to a level
+** introduce jumping
 ** multiple player instance to change too
- * = Done !
 
- 
+Done: 
+- defeat enemy by switching to the right type so they get damage and you don't  
+- make it easier to costumize or add things!*
+- make the enemy not fall of the world*
+- cooldown on shapshift*
+- walk left to right *
+- character facing correct *
+- Simplistic AI / Enemies *
+- Shapshift! *
+- User Interface *
+- one shape only to use portal *
+- Fix add up by shape shift *
+- Victory State* 
+- Upgrades *
+
 Story line :
 bla bla bla 
-
-
-Min Z Depth: 30.88
-Max Z Depth: 49.9
- 
-min: 34
-max: 40

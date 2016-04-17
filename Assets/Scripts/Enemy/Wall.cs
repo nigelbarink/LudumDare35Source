@@ -2,10 +2,10 @@
 using System.Collections;
 
 public class Wall : MonoBehaviour {
+	public GM gm ;
 	public float lives = 50;
 	public Material[] mat = new Material[5];
 	public Renderer rend;
-	bool selected = false;
 	Color default_color;
 	void Start (){
 		default_color = this.GetComponent<Renderer>().material.color;
@@ -38,6 +38,7 @@ public class Wall : MonoBehaviour {
 			rend.material =	mat [4];
 		}
 		if (lives <= 0 ) {
+			gm.player.money += 10 - gm.player.shape.return_type ();
 			Destroy (this.gameObject);
 			//TODO: maybe some cool destroying wall animation 
 		}

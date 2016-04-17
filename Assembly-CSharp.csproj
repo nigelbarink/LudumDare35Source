@@ -45,12 +45,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\AI.cs" />
-     <Compile Include="Assets\Scripts\FollowPlayer.cs" />
-     <Compile Include="Assets\Scripts\Node.cs" />
-     <Compile Include="Assets\Scripts\Wall.cs" />
-     <Compile Include="Assets\Scripts\controls.cs" />
-     <Compile Include="Assets\Scripts\health.cs" />
+     <Compile Include="Assets\Scripts\Enemy\AI.cs" />
+     <Compile Include="Assets\Scripts\Enemy\Wall.cs" />
+     <Compile Include="Assets\Scripts\General\FollowPlayer.cs" />
+     <Compile Include="Assets\Scripts\General\GM.cs" />
+     <Compile Include="Assets\Scripts\General\Interface.cs" />
+     <Compile Include="Assets\Scripts\General\Stats.cs" />
+     <Compile Include="Assets\Scripts\General\Upgrades.cs" />
+     <Compile Include="Assets\Scripts\Player\Shape.cs" />
+     <Compile Include="Assets\Scripts\Player\controls.cs" />
      <None Include="Assets\TODO.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>F:/unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
