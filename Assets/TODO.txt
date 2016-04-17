@@ -25,7 +25,7 @@ Gameplay:
 
 
 Effects:
-- Main menu 
+
 - Sound effects
 - Animation For wall Destruction 
 - textures
@@ -38,6 +38,7 @@ Effects:
 ** multiple player instance to change too
 
 Done: 
+- Main menu 
 - defeat enemy by switching to the right type so they get damage and you don't  
 - make it easier to costumize or add things!*
 - make the enemy not fall of the world*

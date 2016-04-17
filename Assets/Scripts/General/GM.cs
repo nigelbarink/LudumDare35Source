@@ -4,7 +4,8 @@ using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
 
-public class GM : MonoBehaviour {
+public  class GM : MonoBehaviour {
+
 /*
  * the Game Manager is responsible for Victory conditions , Loses and spawning enemies. 
  * further it  handles simple operations like telling an enemy it toke damage (Or the player in some instance) 
@@ -73,10 +74,14 @@ public class GM : MonoBehaviour {
 			// TODO: play animation Here?!
 			Vector3 pos = transform.position;
 			Debug.Log (floor);
+			spawn = getspawnpoints ();
 			pos = spawn [floor].transform.position;
 			us.transform.position = pos;
 			floor++;
 		}
+	}
+	public GameObject[] getspawnpoints (){
+		return GameObject.FindGameObjectsWithTag ("Spawn");
 	}
 
 	public	void TakeDamage(float Damage, GameObject Target){

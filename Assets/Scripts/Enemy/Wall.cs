@@ -9,6 +9,11 @@ public class Wall : MonoBehaviour {
 	Color default_color;
 	void Start (){
 		default_color = this.GetComponent<Renderer>().material.color;
+		GameObject gg = GameObject.FindGameObjectWithTag ("GameController");
+		if (gg != null) {
+			gm = gg.GetComponent<GM> ();
+			gm.pp = this.gameObject;
+		}
 	}
 
 	public void select (bool fase){

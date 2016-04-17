@@ -7,7 +7,13 @@ public class controls : MonoBehaviour {
 	public float sensitivity = 2f;
 
 	public  GM gm ;
-
+	public void Start(){
+		GameObject gg = GameObject.FindGameObjectWithTag ("GameController");
+		if (gg != null) {
+			gm = gg.GetComponent<GM> ();
+		gm.pp = this.gameObject;
+		}
+	}
 	void OnTriggerEnter(Collider Other){
 		gm.NewFloor (Other , this.gameObject);
 	}
